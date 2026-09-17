@@ -122,9 +122,17 @@ Then visit `http://localhost:8080`.
 Copy `index.html` anywhere that serves static files: GitHub Pages, Netlify, Cloudflare
 Pages, an S3 bucket, a folder on your own box. There is no backend to deploy.
 
-This repository includes a GitHub Pages workflow. Enable Pages in the repository settings
-with "GitHub Actions" as the source, and every push to `main` that touches the app
-publishes it.
+This repository is ready for GitHub Pages either way you prefer to deploy:
+
+- **From Actions.** In Settings, Pages, set the source to "GitHub Actions". Every push to
+  `main` that touches the app publishes it. The workflow is already in
+  `.github/workflows/pages.yml`.
+- **From a branch.** Set the source to `main` and the folder to `/ (root)`. The app is
+  `index.html` at the root, so it is served as-is. A `.nojekyll` file is included so the
+  build step leaves everything alone.
+
+Nothing in the app uses absolute paths, so it works correctly at a project URL such as
+`https://whereisxuezugi.github.io/Whereto/` as well as at a domain root.
 
 </details>
 
