@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "sites": [
+    { "id": "sample-picoctf",    "name": "picoCTF",          "url": "https://picoctf.org/",              "category": "ctf",     "priority": 4, "pinned": true,  "pinRank": 1, "visits": 0, "streak": 0, "lastVisited": null },
+    { "id": "sample-otw",        "name": "OverTheWire",      "url": "https://overthewire.org/wargames/", "category": "ctf",     "priority": 3, "pinned": false, "pinRank": null, "visits": 0, "streak": 0, "lastVisited": null },
+    { "id": "sample-cryptohack", "name": "CryptoHack",       "url": "https://cryptohack.org/",           "category": "ctf",     "priority": 3, "pinned": false, "pinRank": null, "visits": 0, "streak": 0, "lastVisited": null },
+    { "id": "sample-htb",        "name": "Hack The Box",     "url": "https://www.hackthebox.com/",       "category": "ctf",     "priority": 2, "pinned": false, "pinRank": null, "visits": 0, "streak": 0, "lastVisited": null },
+    { "id": "sample-euler",      "name": "Project Euler",    "url": "https://projecteuler.net/",         "category": "puzzles", "priority": 5, "pinned": true,  "pinRank": 2, "visits": 0, "streak": 0, "lastVisited": null },
+    { "id": "sample-aoc",        "name": "Advent of Code",   "url": "https://adventofcode.com/",         "category": "puzzles", "priority": 3, "pinned": false, "pinRank": null, "visits": 0, "streak": 0, "lastVisited": null },
+    { "id": "sample-codewars",   "name": "Codewars",         "url": "https://www.codewars.com/",         "category": "puzzles", "priority": 3, "pinned": false, "pinRank": null, "visits": 0, "streak": 0, "lastVisited": null },
+    { "id": "sample-exercism",   "name": "Exercism",         "url": "https://exercism.org/",             "category": "course",  "priority": 4, "pinned": false, "pinRank": null, "visits": 0, "streak": 0, "lastVisited": null },
+    { "id": "sample-fcc",        "name": "freeCodeCamp",     "url": "https://www.freecodecamp.org/",     "category": "course",  "priority": 2, "pinned": false, "pinRank": null, "visits": 0, "streak": 0, "lastVisited": null },
+    { "id": "sample-odin",       "name": "The Odin Project", "url": "https://www.theodinproject.com/",   "category": "course",  "priority": 3, "pinned": false, "pinRank": null, "visits": 0, "streak": 0, "lastVisited": null }
+  ]
+}

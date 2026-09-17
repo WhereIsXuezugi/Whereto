@@ -1,0 +1,41 @@
+{
+  "name": "whereto",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A calm launcher that sends you to a random site from your own list.",
+  "homepage": "https://github.com/whereisxuezugi/Whereto",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whereisxuezugi/Whereto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whereisxuezugi/Whereto/issues"
+  },
+  "license": "MIT",
+  "author": "whereisxuezugi",
+  "keywords": [
+    "random",
+    "launcher",
+    "bookmarks",
+    "ctf",
+    "puzzles",
+    "self-hosted",
+    "single-file",
+    "offline",
+    "vanilla-js"
+  ],
+  "scripts": {
+    "test": "node test/app.test.js",
+    "check": "node scripts/check-selfcontained.js",
+    "verify": "npm run check && npm test",
+    "start": "python3 -m http.server 8080",
+    "docker:build": "docker build -t whereto .",
+    "docker:run": "docker run --rm -p 8080:80 whereto"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
