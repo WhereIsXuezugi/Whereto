@@ -10,7 +10,6 @@
 
 <p>
   <a href="#quick-start"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-E0851A?style=flat-square"></a>
-  <a href="https://github.com/whereisxuezugi/Whereto/actions/workflows/ci.yml"><img alt="CI status" src="https://img.shields.io/github/actions/workflow/status/whereisxuezugi/Whereto/ci.yml?branch=main&style=flat-square&label=CI"></a>
   <img alt="Dependencies: none" src="https://img.shields.io/badge/runtime%20dependencies-none-3C6A5F?style=flat-square">
   <img alt="Single file" src="https://img.shields.io/badge/app-1%20file-3C6A5F?style=flat-square">
   <img alt="Works offline" src="https://img.shields.io/badge/works-offline-3C6A5F?style=flat-square">
